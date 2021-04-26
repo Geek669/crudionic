@@ -1,0 +1,7 @@
+{
+  "name": "crudionic",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

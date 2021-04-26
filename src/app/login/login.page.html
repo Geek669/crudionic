@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-toolbar color="secondary">
+    <ion-title class="ion-text-center"></ion-title>
+    <img src="https://tecnologicoloja.edu.ec/wp-content/uploads/2018/10/LOGO-LATERAL5.png" alt="600">
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-item>
+    <ion-label position="floating" color="medium">E-mail</ion-label>
+    <ion-input type="email" [(ngModel)]="user.email" required></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="floating" color="medium">Password</ion-label>
+    <ion-input type="password" [(ngModel)]="user.password" required></ion-input>
+  </ion-item>
+
+  <ion-button
+    class="ion-padding"
+    color="secondary"
+    expand="full"
+    (click)="login(user)"
+    >Login</ion-button
+    
+  >
+  
+</ion-content>
